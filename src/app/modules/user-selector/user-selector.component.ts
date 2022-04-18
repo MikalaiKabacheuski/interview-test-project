@@ -1,5 +1,6 @@
 import { ChangeDetectionStrategy, Component, OnInit } from '@angular/core';
 import { Observable } from 'rxjs';
+import { filter, map } from 'rxjs/operators';
 import { UserDataService } from '../../data-services/users.data-service';
 import { User } from '../../models/user.model';
 
